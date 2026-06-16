@@ -1,5 +1,5 @@
 {
-  "name": "email-workflow",
+  "name": "emailworkflowskill",
   "version": "0.1.0",
   "private": false,
   "description": "Email Workflow Skill: workflow maps, lifecycle routing, and agent-readable email operations.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "email-workflow"
+    "emailworkflowskill"
   ],
   "skill": {
-    "name": "email-workflow",
-    "path": "skills/email-workflow",
-    "install": "npx skills add email-workflow",
-    "githubInstall": "npx skills add polnikale/emailworkflowskill --skill email-workflow"
+    "name": "emailworkflowskill",
+    "path": "skills/emailworkflowskill",
+    "install": "npx skills add emailworkflowskill",
+    "githubInstall": "npx skills add polnikale/emailworkflowskill --skill emailworkflowskill"
   }
 }

@@ -1,5 +1,5 @@
 ---
-name: email-workflow
+name: emailworkflowskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on workflow maps, lifecycle routing, and agent-readable email operations. Triggers include requests about Lifecycle map audits, Trigger logic reviews, Sequence handoff plans, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 
