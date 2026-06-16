@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "emailworkflowskill",
+      "title": "Email Workflow Skill",
+      "description": "Email Workflow Skill: workflow maps, lifecycle routing, and agent-readable email operations.",
+      "install": "npx skills add emailworkflowskill",
+      "skill_url": "https://emailworkflowskill.com/skills/emailworkflowskill/SKILL.md",
+      "markdown_url": "https://emailworkflowskill.com/skill/index.md",
+      "homepage_url": "https://emailworkflowskill.com/"
+    }
+  ]
+}
