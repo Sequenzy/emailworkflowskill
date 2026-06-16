@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add emailworkflowskill
-npx skills add Sequenzy/emailworkflowskill --skill emailworkflowskill
 ```
 
 Raw skill folder: `skills/emailworkflowskill`

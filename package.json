@@ -17,7 +17,6 @@
   "skill": {
     "name": "emailworkflowskill",
     "path": "skills/emailworkflowskill",
-    "install": "npx skills add emailworkflowskill",
-    "githubInstall": "npx skills add Sequenzy/emailworkflowskill --skill emailworkflowskill"
+    "install": "npx skills add emailworkflowskill"
   }
 }
