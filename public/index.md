@@ -2,9 +2,9 @@
 
 emailworkflowskill.com
 
-Email Workflow Skill for agents that work on email systems.
+Turn messy lifecycle logic into a map an agent can inspect.
 
-A compact skill for workflow maps, lifecycle routing, and agent-readable email operations, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A domain skill for agents that need to read workflow intent, compare trigger paths, and return operator-ready handoffs without touching live sends.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for workflow maps, lifecycle routing, and agent-readable email o
 npx skills add emailworkflowskill
 ```
 
-Raw skill folder: `skills/emailworkflowskill`
+## Operating Data
 
-## Use Cases
+- **27**: workflow objects to inspect
+- **9**: handoff checkpoints
+- **4**: approval tiers
 
-- **Lifecycle map audits**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Trigger logic reviews**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Sequence handoff plans**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Lifecycle routing ledger
 
-## Guides
+1. Entry trigger
+2. Eligibility rules
+3. Branch decision
+4. Message handoff
+5. Exit condition
 
-- [How to Build an Agent-Ready Email Workflow Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Email Workflow Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Email Workflow Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Lifecycle map audit
+
+Trace welcome, activation, expansion, and winback paths before a teammate changes logic.
+
+### Trigger logic review
+
+Ask the agent to compare event names, filters, delays, and exit rules.
+
+### Sequence handoff plan
+
+Return a clean build brief with owner, inputs, risks, and approval state.
+
+## Operating Proof
+
+- **Best for**: Teams with journeys spread across docs, builders, and analytics
+- **Primary artifact**: Trigger map with gaps, collisions, and next actions
+- **Stop condition**: Any edit that changes production audience flow
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/emailworkflowskill/SKILL.md
+- Articles: /articles/
