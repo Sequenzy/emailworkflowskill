@@ -7,6 +7,10 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Map the system before changing it. Treat every email as part of a route with entry criteria, exit criteria, owner, and observable outcome.
 
+## Decision Lens
+
+- Primary lens: workflow maps, lifecycle routing, trigger ownership, and agent-readable operating paths.
+
 ## When To Use
 
 Use this skill for workflow maps, lifecycle routing, trigger ownership, and agent-readable operating paths. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
