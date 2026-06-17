@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Workflow Operations",
+      "description": "Lifecycle routing, trigger maps, and operator handoffs for email agents.",
+      "skills": [
+        "emailworkflowskill"
+      ]
+    }
+  ]
+}
